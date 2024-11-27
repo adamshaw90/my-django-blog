@@ -28,9 +28,9 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-adamshaw90-mydjangoblog-yqgpfzub9oh.ws.codeinstitute-ide.net', '.herokuapp.com']
+ALLOWED_HOSTS = ['8000-adamshaw90-mydjangoblog-kfpdlpuq20u.ws.codeinstitute-ide.net', '.herokuapp.com']
 
 
 # Application definition
